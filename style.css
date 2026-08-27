@@ -302,3 +302,18 @@ footer a:hover {
     font-size: 1rem;
   }
 }
+
+.certification-img {
+  width: 100%;
+  height: 420px;
+  object-fit: contain;
+  background: #f8f9fa;
+  padding: 10px;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .certification-img {
+    height: 350px;
+  }
+}
